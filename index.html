@@ -1,38 +1,78 @@
-
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-   <meta charset="utf-8" /> 
-   <meta name=”viewport” content=”width=device-width, initial-scale=1.0”> 
-   <title>HTML5 EĞİTİMLERİ</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="”viewport”"
+      content="”width"
+      ="device-width,"
+      initial-scale="1.0”"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML5 EĞİTİMLERİ</title>
+  </head>
 
-   <style type="text/css">
-     body {
-       max-width: 1200px;
-       margin: auto;
-     }
-     header, nav, section, article, footer {
-      border: 1px solid grey;
-      margin: 25px;
-      padding: 10px;
-     }
+  <body>
+    <!-- Header  -->
+    <header>
+      <h1>HTML İSKELET YAPISI</h1>
+    </header>
+    <!-- Navbar  -->
+    <nav>
+      <ul>
+        <li><a href="#">AnaSayfa</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">Kalite</a></li>
+        <li><a href="#">İletişim</a></li>
+      </ul>
+    </nav>
 
-     nav ul li,
-     nav ol li { 
-       display: inline; 
-      }
-   </style>
-
-</head>
-
-<body>
-
-  <!-- Header  -->  
-  <!-- Menu  --> 
- 
-  <!-- Content  --> 
-
-  <!-- Footer  -->  
-
-</body>
+    <!-- Content  -->
+    <section id="country">
+      <h2>Ünlü Ülkeler</h2>
+      <article>
+        <h2>Türkiye</h2>
+        <p>
+          <b>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</b>
+          <i> Aspernatur provident omnis modi non commodi amet quos debitis!</i>
+          <u
+            >Facilis sunt, quas natus eius delectus reiciendis, quam illum
+            placeat corporis quasi doloribus voluptatem dicta obcaecati maiores
+            reprehenderit molestias debitis quos vitae totam.</u
+          >
+        </p>
+      </article>
+      <article>
+        <h2>İrlanda</h2>
+        <p>
+          <b>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</b>
+          <i> Aspernatur provident omnis modi non commodi amet quos debitis!</i>
+          <u
+            >Facilis sunt, quas natus eius delectus reiciendis, quam illum
+            placeat corporis quasi doloribus voluptatem dicta obcaecati maiores
+            reprehenderit molestias debitis quos vitae totam.</u
+          >
+        </p>
+      </article>
+    </section>
+    <section id="iletisim">
+      <h2>İletişim</h2>
+      <form>
+        <label for="username">User Name:</label>
+        <input type="text" id="username" required />
+        <label for="mail">Mail:</label>
+        <input type="email" id="mail" required />
+        <label for="konu">Konu:</label>
+        <input type="text" id="konu" required />
+        <label for="konu1">Konu:</label>
+        <input type="checkbox" id="konu1" />
+        <button type="reset" class="btn">Temizle</button>
+        <button type="submit" class="btn">Gönder</button>
+      </form>
+    </section>
+    <!-- Footer  -->
+    <footer>
+      <div>&copy; 2022 Tüm Haklar Saklıdır.</div>
+    </footer>
+  </body>
 </html>
